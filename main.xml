@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright 2026, UNSW
+    SPDX-License-Identifier: BSD-2-Clause
+-->
+<manifest>
+    <default revision="main" />
+
+    <remote name="seL4" fetch="../seL4"/>
+    <remote name="au-ts" fetch="../au-ts"/>
+
+    <project name="seL4" path="seL4" remote="seL4" revision="881de507fe528490dc5e570c7810a149bad5880f" upstream="master" dest-branch="refs/tags/15.0.0" />
+    <project name="microkit" remote="au-ts" path="microkit" upstream="main" dest-branch="main" />
+</manifest>
