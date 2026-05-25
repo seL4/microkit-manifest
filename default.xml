@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Copyright 2026, UNSW
-    SPDX-License-Identifier: BSD-2-Clause
+   Copyright 2026 seL4 Project a Series of LF Projects, LLC
+   SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
-    <default revision="main" remote="seL4" />
-
-    <remote name="seL4" fetch="../seL4"/>
-
-    <project name="seL4" remote="seL4" revision="881de507fe528490dc5e570c7810a149bad5880f" dest-branch="refs/tags/15.0.0" />
-    <project name="microkit" remote="seL4" revision="2130325119524d02e20bbc175b60cdf6591aedf0" dest-branch="main" />
+  <remote name="seL4" fetch="../seL4"/>
+  
+  <default revision="main"/>
+  
+  <project name="microkit" remote="seL4" revision="8e1c1ef6af479efb0bcc78e4c33a98f8445f97df" upstream="main" dest-branch="main"/>
+  <project name="seL4" remote="seL4" revision="881de507fe528490dc5e570c7810a149bad5880f" upstream="master" dest-branch="e912dff7341cf3b35475c3a7eee9a90c61b367a8"/>
 </manifest>
