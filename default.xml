@@ -8,6 +8,6 @@
   
   <default revision="main"/>
   
-  <project name="microkit" remote="seL4" revision="16f3f5889460aad4e76a9d99708a8926f34fe69c" upstream="main" dest-branch="main"/>
+  <project name="microkit" remote="seL4" revision="31ee14b4e029502c5a15c6eb24dfdec03eaaa9a3" upstream="main" dest-branch="main"/>
   <project name="seL4" remote="seL4" revision="e912dff7341cf3b35475c3a7eee9a90c61b367a8" upstream="master"/>
 </manifest>
