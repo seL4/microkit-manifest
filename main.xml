@@ -4,7 +4,7 @@
     SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
-    <default revision="main" />
+    <default revision="main"  />
 
     <remote name="seL4" fetch="../seL4"/>
 
