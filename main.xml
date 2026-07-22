@@ -8,6 +8,6 @@
 
     <remote name="seL4" fetch="../seL4"/>
 
-    <project name="seL4" path="seL4" remote="seL4" revision="ddfd6678787451af5c434a92cd62c4b53b8ea7e4" upstream="master" />
+    <project name="seL4" path="seL4" remote="seL4" revision="6e7c3b733d296cfd88d5fbf635c96e447a882374" upstream="master" />
     <project name="microkit" remote="seL4" path="microkit" upstream="main" dest-branch="main" />
 </manifest>
